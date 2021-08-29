@@ -22,7 +22,7 @@ namespace PracticaLab.Models
         public decimal Precio { get; set; }
         
         [Column("descuento")]
-        public decimal Descuento {get; set; }     
+        public int Descuento {get; set; }     
 
     }
 }
